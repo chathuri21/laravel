@@ -23,6 +23,8 @@ Route::resource('post', 'PostController');
 
 Route::resource('books', 'BooksController');
 
+Route::post('authors', 'AuthorsController@store');
+
 Route::get('/hello', function () {
     return "Hi world";
 });
