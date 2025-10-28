@@ -10,6 +10,7 @@ class AuthorTest extends TestCase
 {
     use RefreshDatabase;
 
+    // Test push to Git
     /** @test */
     public function only_name_is_required_to_create_an_author()
     {
